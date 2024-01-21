@@ -6,8 +6,10 @@ title = "info"
 
   [[entries.entries]]
   title = "github repo"
-  url = "https://github.com/hanwenguo/hugo-theme-nostyleplease"
+  url = "https://github.com/ckorikov/hugo-theme-nostyleplease"
 
+  [[entries.entries]]
+  title = "used by <a href='https://korikov.cc'>korikov.cc</a>, <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
 
 [[entries]]
 title = "all posts"
