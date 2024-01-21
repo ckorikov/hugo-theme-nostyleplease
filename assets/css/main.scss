@@ -70,6 +70,29 @@ body[a="light"] { @include light-appearance; }
   body[a="auto"] { @include light-appearance; }
 }
 
+body[a='dark'] #moon {
+  vertical-align: middle;
+  display: none;
+}
+
+body[a='light'] #sun {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  body[a="auto"] #moon {
+    vertical-align: middle;
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body[a="auto"] #sun {
+    display: none;
+  }
+}
+
+
 // -------------------------------------------- //
 
 html { height: 100%; }
@@ -178,4 +201,18 @@ details[open] summary {
 
 .toc {
   padding: 1rem;
+}
+
+.top-line{
+  display: flex; 
+  justify-content: space-between;
+}
+
+button#theme-toggle {
+  font-size: 26px;
+  margin: 0px;
+  padding: 0px;
+  background: var(--tertiary);
+  border: none;
+  display: inline-block;
 }
