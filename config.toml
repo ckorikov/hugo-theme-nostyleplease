@@ -38,3 +38,4 @@
     isListGroupByDate = false
     isShowFooter      = true
     theme_toggle      = true
+    isShowDate        = false
